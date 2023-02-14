@@ -1,0 +1,22 @@
+.spur-region-bg-properties { 
+    display: flex;
+    width: 222px;
+    height: 73px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
+    opacity: 1;
+}
+
+.spur-region-bg-properties img{
+    width: 100px;
+    height: 100%;
+
+}
+
+.product-img-section{
+    width: 150px;
+    /* height: 190px; */
+}
+
