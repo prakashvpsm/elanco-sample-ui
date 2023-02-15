@@ -3,6 +3,14 @@ import { useStore } from '../../store';
 import { setOptions } from '../../store/actions';
 
 
+
+/**
+ * This file has the main sidebar
+ * 
+ * @version 0.0.1
+ * @author [Prakash Venkatachalam]
+ */
+
 const types = [
     {
         name: 'Applications',

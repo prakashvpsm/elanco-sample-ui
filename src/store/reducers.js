@@ -1,5 +1,13 @@
 import { SET_DATA, SET_OPTIONS } from './constants'
 
+/**
+ * This file has reducers which will help us store the data
+ * 
+ * @version 0.0.1
+ * @author [Prakash Venkatachalam]
+ */
+
+
 export const initialState = {
     data: {},
     options: {},

@@ -2,6 +2,14 @@ import React from 'react';
 import { useStore } from '../../store';
 import ContentTable from './table';
 
+/**
+ * This file has the main content of home screen as well as the table screen
+ * 
+ * @version 0.0.1
+ * @author [Prakash Venkatachalam]
+ */
+
+
 export default function Content() {
     const { options } = useStore()
     return (
@@ -18,6 +26,10 @@ export default function Content() {
                         <div className='italic text-sm'>1. To view the application lists please click the Application in the side menu</div>
                         <div className='text-sm italic'>2. To view the resource lists please click the Resources in the side menu</div>
 
+                    </div>
+                    <div className='flex text-xs text-red-600 gap-2'>
+                        <div>*Note : </div>
+                        <div>This application is only compatible with laptops and desktops.</div>
                     </div>
 
                 </div>}

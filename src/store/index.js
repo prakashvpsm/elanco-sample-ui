@@ -1,6 +1,14 @@
 
 import * as React from "react";
 
+/**
+ * This file has initial custom hooks to store all the data
+ * 
+ * @version 0.0.1
+ * @author [Prakash Venkatachalam]
+ */
+
+
 const Store = React.createContext(null);
 
 Store.displayName = 'Store';

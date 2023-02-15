@@ -4,6 +4,14 @@ import { getApplications, getResources, getApplicationsByApplicationName, getRes
 import { useStore } from '../store'
 import { setData } from '../store/actions'
 
+/**
+ * This file has custom hooks that will help us to call the API's and dispatching the data to a store
+ * 
+ * @version 0.0.1
+ * @author [Prakash Venkatachalam]
+ */
+
+
 
 export default function useApplication() {
 

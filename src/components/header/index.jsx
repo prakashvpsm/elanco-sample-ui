@@ -1,5 +1,13 @@
 import React from 'react'
 
+
+/**
+ * This file has header where we can customize
+ * 
+ * @version 0.0.1
+ * @author [Prakash Venkatachalam]
+ */
+
 export default function Header() {
   return (
     <div className='h-16 bg-primary w-full flex items-center px-5'>

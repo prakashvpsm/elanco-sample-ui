@@ -3,6 +3,14 @@ import { useStore } from '../../store';
 import { setOptions } from '../../store/actions';
 
 
+/**
+ * This file has the sub sidebar
+ * 
+ * @version 0.0.1
+ * @author [Prakash Venkatachalam]
+ */
+
+
 export default function SubSidebar() {
     const { options, data, dispatch } = useStore();
 
@@ -17,12 +25,10 @@ export default function SubSidebar() {
         dispatch(setOptions({ type: 'subMenu', value: value }))
     }
 
-    console.log(getMenuDatas, 'menuasas')
-
     return (
         <div className='h-screen overflow-auto'>
-            <div onClick={() => goBack()}> {"<"}  Back </div>
-            <div className='py-10 flex flex-col'>
+            <div className='px-5 mt-10  font-bold transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 text-primary cursor-pointer' onClick={() => goBack()}> {"<"}  Back </div>
+            <div className='py-5 flex flex-col'>
                 {
 
                     getMenuDatas && getMenuDatas.length > 0 ? <div>

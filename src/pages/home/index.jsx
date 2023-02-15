@@ -5,6 +5,14 @@ import SideBar from '../../components/sidebar';
 import Content from '../../components/content';
 import Header from '../../components/header';
 
+/**
+ * This file has all the main component for home pages including header, sidebar and content
+ * 
+ * @version 0.0.1
+ * @author [Prakash Venkatachalam]
+ */
+
+
 export default function Home() {
 
   const { loading, getAllData } = useApplication();
@@ -17,7 +25,7 @@ export default function Home() {
   return (
     <div>
       {
-        loading ? <div>
+        loading ? <div className='h-screen flex items-center justify-center'>
           <Loader />
         </div> : <div className='w-full'>
           <div className='w-full'>
